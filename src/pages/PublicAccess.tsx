@@ -107,9 +107,9 @@ export default function PublicAccess() {
 
   const efficiencyData = [
     { month: "Jan", efficiency: 78, target: 85 },
-    { month: "Feb", efficiency: 80, target: 85 },
+    { month: "Feb", efficiency: 76, target: 85 },
     { month: "Mar", efficiency: 82, target: 85 },
-    { month: "Apr", efficiency: 84, target: 85 },
+    { month: "Apr", efficiency: 80, target: 85 },
     { month: "May", efficiency: 86, target: 85 },
     { month: "Jun", efficiency: 88, target: 85 },
   ]
