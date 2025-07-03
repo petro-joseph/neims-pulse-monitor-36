@@ -65,7 +65,7 @@ export function EnergyCard({
       className={cn(
         "energy-card transition-all duration-300",
         interactive && "cursor-pointer hover:scale-105",
-        glowEffect && "animate-glow-pulse",
+        glowEffect && "animate-glow-pulses",
         className
       )}
       onClick={onClick}
