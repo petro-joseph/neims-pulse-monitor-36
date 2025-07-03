@@ -11,6 +11,9 @@ import Login from "./pages/Login";
 import PublicAccess from "./pages/PublicAccess";
 import Dashboard from "./pages/Dashboard";
 import DataEntry from "./pages/DataEntry";
+import AdminPanel from "./pages/AdminPanel";
+import DataValidation from "./pages/DataValidation";
+import DataIngestion from "./pages/DataIngestion";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +32,9 @@ const App = () => (
               <Route path="/public" element={<PublicAccess />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/data-entry" element={<DataEntry />} />
+              <Route path="/admin" element={<AdminPanel />} />
+              <Route path="/data-validation" element={<DataValidation />} />
+              <Route path="/data-ingestion" element={<DataIngestion />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

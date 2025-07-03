@@ -58,18 +58,21 @@ export function Navbar({ userRole, userName, isLoggedIn }: NavbarProps) {
           ...baseLinks,
           { href: "/data-entry", label: "Data Management", icon: Database },
           { href: "/admin", label: "Admin Panel", icon: Shield },
+          { href: "/data-validation", label: "Data Validation", icon: Settings },
           { href: "/reports", label: "Reports", icon: BarChart3 },
         ]
       case 'data_provider':
         return [
           ...baseLinks,
-          { href: "/data-entry", label: "Data Entry", icon: Database },
+          { href: "/data-ingestion", label: "Data Entry", icon: Database },
+          { href: "/data-entry", label: "My Data", icon: Database },
           { href: "/reports", label: "My Reports", icon: BarChart3 },
         ]
       case 'senior_official':
       case 'management':
         return [
           ...baseLinks,
+          { href: "/data-validation", label: "Data Validation", icon: Settings },
           { href: "/reports", label: "Reports", icon: BarChart3 },
           { href: "/compliance", label: "Compliance", icon: Settings },
         ]
