@@ -14,6 +14,7 @@ import DataEntry from "./pages/DataEntry";
 import AdminPanel from "./pages/AdminPanel";
 import DataValidation from "./pages/DataValidation";
 import DataIngestion from "./pages/DataIngestion";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/login" element={<Login />} />
               <Route path="/public" element={<PublicAccess />} />
+              <Route path="/about" element={<About />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/data-entry" element={<DataEntry />} />
               <Route path="/admin" element={<AdminPanel />} />
