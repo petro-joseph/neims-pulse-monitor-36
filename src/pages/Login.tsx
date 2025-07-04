@@ -97,8 +97,10 @@ export default function Login() {
         {/* Login Form */}
         <Card className="energy-card">
           <CardHeader className="text-center">
-            <div className="mx-auto mb-4 h-12 w-12 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">N</span>
+            <div className="mx-auto mb-4 h-17 w-17 rounded-lg bg-pri flex items-center justify-center">
+              <span className="text-primary-foreground font-bold text-xl">
+                <img src="/emblem.png" alt="" />
+              </span>
             </div>
             <CardTitle className="text-2xl neon-text">Sign In to NEIMS</CardTitle>
             <CardDescription>
