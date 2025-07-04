@@ -58,7 +58,7 @@ const DataValidation = () => {
     // Handle validation logic here
   }
 
-  if (!user || !['admin', 'senior_official'].includes(user.role)) {
+  if (!user || !['admin', 'senior_official', 'data_provider'].includes(user.role)) {
     return (
       <PageLayout>
         <div className="container mx-auto px-4 py-8">
@@ -194,7 +194,7 @@ const DataValidation = () => {
                   <div className="flex items-center space-x-4">
                     <Button 
                       onClick={() => handleValidate(submission.id, 'disapprove')}
-                      variant="outline"
+                      variant="destructive"
                       className="glow-button"
                     >
                       <XCircle className="h-4 w-4 mr-2" />
