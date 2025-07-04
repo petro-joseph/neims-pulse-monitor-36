@@ -97,7 +97,7 @@ export default function Login() {
         {/* Login Form */}
         <Card className="energy-card">
           <CardHeader className="text-center">
-            <div className="mx-auto mb-4 h-17 w-17 rounded-lg bg-pri flex items-center justify-center">
+            <div className="mx-auto mb-4 h-16 w-16 rounded-lg bg-pri flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-xl">
                 <img src="/emblem.png" alt="" />
               </span>
