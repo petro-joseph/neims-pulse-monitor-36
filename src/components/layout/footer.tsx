@@ -38,17 +38,7 @@ export function Footer() {
               <p className="text-green-100 text-sm leading-relaxed">
                 National Energy Information Management System - Empowering Tanzania's energy sector with comprehensive data management and analytics.
               </p>
-              <div className="flex space-x-4">
-                <Button size="icon" variant="ghost" className="hover:bg-white/10 text-white">
-                  <Facebook className="h-4 w-4" />
-                </Button>
-                <Button size="icon" variant="ghost" className="hover:bg-white/10 text-white">
-                  <Twitter className="h-4 w-4" />
-                </Button>
-                <Button size="icon" variant="ghost" className="hover:bg-white/10 text-white">
-                  <Linkedin className="h-4 w-4" />
-                </Button>
-              </div>
+             
             </div>
 
             {/* Quick Links */}
